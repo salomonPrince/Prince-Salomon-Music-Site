@@ -1,0 +1,553 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+  <title>Prince Salomon Music Website </title>
+
+  <meta name="viewport" content="width=device-width" />
+  <meta name="description" content="Music website coded in HTML, CSS, and JQuery" />
+  <meta name="keywords" content="msuic, website, template, responsive" />
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <link rel="icon" type="image/png" href="http://waldronmatthew.com/favicon.png">
+  <script language="javascript" src="login-form-master/login.js"></script>
+
+  <link href="https://fonts.googleapis.com/css?family=Tajawal" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" type="text/css" title="style" />
+  <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+  <!-- scoll-fix resolves Firefox anchor location bug -->
+  <!-- When clicking a navigation option from a different page it does not accurately go to the intended id tag area. -->
+  <!-- This script reloads the page to force the anchor into the right location -->
+  <script>
+	function now(){
+		window.location.reload(true);
+	}
+  </script>
+
+</head>
+
+
+<body>
+
+
+    <header>
+		<div id="logo">
+          <h1><a href="index.html">Prince Salomon </a></h1>
+		  <h2><a href="index.html">Prince. music. Unlimited.</a></h2>
+
+    <h2>  <a href="login-form-master/signOut.html" target="Content_Frame">logOut </a> </h2>
+      </div>
+	 </header>
+
+		<nav class="container">
+			<ul class="clearfix" id="cfix">
+				<li class="icon" id="icon">
+					<a href="javascript:void(0);" onclick="myMenu()">&#9776; Menu</a>
+				</li>
+				<li>
+					<ul class="scroll" id="scroll">
+						<li><a href="#home">Home</a></li>
+						<li><a href="#about">About</a></li>
+						<li><a href="#merch">Merch</a></li>
+            <li><a href="#musical-mapping">Musical-mapping</a></li>
+						<li><a href="#subscribe">Subscribe</a></li>
+						<li><a href="#music">Music</a></li>
+						<li><a href="#news">News</a></li>
+						<li><a href="#press">Press</a></li>
+						<li><a href="#videos">Videos</a></li>
+						<li><a href="#shows">Shows</a></li>
+						<li><a href="#photos">Photos</a></li>
+						<li><a href="#contact">Contact</a></li>
+            <li>
+              <div class="flexbox">
+    <div class="search">
+      <div>
+        <input type="search" id="search" name="search" placeholder="Search . ." required autocomplete="off">
+      </div>
+    </div>
+  </div>
+  </li>
+
+<!-- <script type="text/javascript">
+  const $search = document.getElementById('search');
+
+        $search.addEventListener('input', (event) => {
+            const searchText = event.target.value;
+            const regex = new RegExp(searchText, 'gi');
+</script> -->
+
+					</ul>
+				</li>
+			</ul>
+		</nav>
+
+	<section id="home">
+	<hr class="horizontal" />
+	<div class="hero">
+		<div id="overlay">
+			<div class="hero-text">
+
+				<h2>Canada AfroBeat Live</h2>
+				<p>Acoustic live session ft. Kimberly</p>
+
+				<div class="pagesbar-music">
+					<ul class="pages-music">
+						<li><a href="index.html#videos">Click Here to Watch</a></li>
+					</ul>
+				</div>
+
+				<div id="go-btm"><a href="#about" class="go-btm">&#9660;</a></div>
+			</div>
+		</div>
+	</div>
+
+	</section>
+
+	<div class="site_content_index">
+
+		<div id="content">
+		<div class="anchor-box">
+		<hr class="horizontal" />
+		<section id="about">
+		<h3 class="anchor">About</h3>
+		</section>
+		<hr class="horizontal" />
+		</div>
+
+			<ul class="social_media_music">
+			<li><a href="https://www.facebook.com/Prince.salomo/">
+			<img src="pictures/icons/facebook_b.png" alt="Facebook" /></a></li>
+
+			<li><a href="https://www.instagram.com/princesalomon_official/">
+			<img src="pictures/icons/instagram_b.png" alt="Instagram" /></a></li>
+
+			<li><a href="https://www.youtube.com/channel/UCDgx5t25cCwCeawgy3Nzrsw">
+			<img src="pictures/icons/youtube_b.png" alt="YouTube" /></a></li>
+
+			<li><a href="https://twitter.com/Salomonbaraka">
+			<img src="pictures/icons/twitter_b.png" alt="Twitter" /></a></li>
+
+			</ul>
+
+			<p>Welcome to the site of your artist Prince Salomon,
+        you will find everything you want on me, particularly
+        my different musical works, and everything else.
+      </br>
+      Prince Salomon is an African Musician Artist who lives in Canada Montreal.
+Born in 1996 on 4 June in the Democratic Republic of the Congo, he left for Rwanda at the age of 8.
+He studied elementary and high school before leaving Africa for Canada,
+Began his music career in 2020 following the pandemic until today.
+			</p>
+
+			<div class="pagesbar">
+				<ul class="pages">
+					<li><a href="javascript:void(0);" onclick="hideText()">Read Bio</a></li>
+					<li class="hide" id="about-text">
+						<p>Prince salomon are a 1-piece Rwandese/Congolese Afrobeat band from Montreal, Quebec.
+               The Artist band formed in 2021 from a collection of friend's ideas, hard working,
+                having a great vision and energy, Prince talent started in High school
+                And then he started singing songs from other artists. just couldn't get enough
+                 until he started his carrer. .
+						</p>
+
+						<div id="read-bio">
+						<p>He's unique brand of entertainment fuses Afro music and Dancehall
+               with full Live performance and karaoke sometime. makes people dance, smile and forget about stress
+						</p>
+						</div>
+					</li>
+				</ul>
+			</div>
+
+
+		<div class="anchor-box">
+			<hr class="horizontal" />
+			<section id="merch">
+			<h3 class="anchor">Merch</h3>
+			</section>
+			<hr class="horizontal" />
+		</div>
+
+			<ul class="grid">
+				<li class="grid_item span j"><a href="index.html" class="grid_link"><div class="tile">New  Designs</div></a></li>
+				<li class="grid_item span k"><a href="index.html" class="grid_link"><div class="tile">All T-Shirts 20% Off</div></a></li>
+				<li class="grid_item span l"><a href="index.html" class="grid_link"><div class="tile">Women's Apparel</div></a></li>
+			</ul>
+
+      <div class="anchor-box">
+        <hr class="horizontal" />
+
+     <section id="musical-mapping">
+    <h3 class="anchor"> Musical-mapping </h3>
+     <!-- style="width: auto; padding-left: 20px; padding-right: 20px; padding-bottom: 20px; padding-top: 20px;"> -->
+ <center>
+<img src="hero-img.jpg" usemap="#image-map" alt=" Studio Live recording map">
+<map name="image-map">
+    <area target="-_blank" alt="Solo guitar" title="Solo guitar"
+     href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.guitarhabits.com%2F50-of-the-greatest-guitar-solos-of-all-time%2F&psig=AOvVaw2Nivb3vvWNvh_DNogjaZOj&ust=1669694503589000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCMiT-ff-z_sCFQAAAAAdAAAAABAD" coords="172,446,287,496" shape="rect">
+    <area target="_blank" alt="Drum Kit" title="Drum Kit"
+    href="https://en.wikipedia.org/wiki/Drum_kit" coords="630,620,858,462" shape="rect">
+ <area target="_blank" alt="Video Lighting" title="Video Lighting"
+  href="https://www.google.com/url?sa=i&amp;url=https%3A%2F%2Ffiltergrade.com%2Flighting-set-ups-techniques-product-videos%2F&amp;psig=AOvVaw1JZcKVBT-ar5-iWZJAHBR3&amp;ust=1669696693342000&amp;source=images&amp;cd=vfe&amp;ved=0CA0QjRxqFwoTCOCwoZSH0PsCFQAAAAAdAAAAABAD" coords="547,179,578,306,755,334,708,81,650,101,601,138" shape="poly">
+ <area target="_blank" alt="Acoustic Guitar" title="Acoustic Guitar"
+  href="https://en.wikipedia.org/wiki/Acoustic_guitar" coords="481,476,627,415" shape="rect">
+ <area target="_blank" alt="Mini Studio Piano MDI Controller " title="Mini Studio Piano MDI Controller "
+ href="https://www.google.com/url?sa=i&amp;url=https%3A%2F%2Fmusictech.com%2Fguides%2Fbuyers-guide%2Fthe-best-keyboard-controllers-to-buy%2F&amp;psig=AOvVaw0sFBQacUfrNgXFQ6OE132H&amp;ust=1669697325354000&amp;source=images&amp;cd=vfe&amp;ved=0CAwQjRxqFwoTCOiMzrGJ0PsCFQAAAAAdAAAAABAE" coords="972,459,1085,494" shape="rect">
+ <area target="_blank" alt="Piano stand" title="Piano stand"
+  href="https://cosmomusic.ca/product_images/behringer-ks1002/60d3cb06574a930018a01816/super_zoom.jpg?c=1624492806" coords="971,497,1082,659" shape="rect">
+ <area target="_blank" alt="Guitar Amplifier" title="Guitar Amplifier"
+  href="https://en.wikipedia.org/wiki/Guitar_amplifier" coords="190,501,321,626" shape="rect">
+</center>
+</map>
+
+     <hr class="horizontal" />
+   </div>
+
+
+		<div class="anchor-box">
+			<hr class="horizontal" />
+			<section id="subscribe">
+			<h3 class="anchor">Subscribe</h3>
+			</section>
+			<hr class="horizontal" />
+		</div>
+
+			<form id="email-form">
+					<div class="form_settings">
+					<h2>Join our Mailing List</h2>
+					<p>Subscribe to get the latest news, tour dates, and mailing list exclusives</p>
+						<div class="field">
+							<input type="email" name="email" placeholder="jane.doe@gmail.com" required />
+						</div>
+
+						<div id="myBtn">
+							<div class="field">
+								<input type="button" value="submit" class="submit"/>
+							</div>
+						</div>
+					</div>
+			</form>
+
+			<div id="myModal" class="modal">
+
+			<div class="modal-content">
+			<span class="close">&times;</span>
+				<div class="center">
+				<p>Thanks for joining our mailing list!</p>
+	<!--			<p><a href="https://docs.google.com/spreadsheets/d/1lqfvMxZgZgZkYTMEHQfcmEHSunweDe9XukE-aVWE2PY/edit?usp=sharing" target="blank" >Click here</a> to view the email address you entered.</p> -->
+				</div>
+			</div>
+
+			</div>
+
+			<div id="myError" class="modal">
+
+				<div class="modal-content">
+				<span class="close_error">&times;</span>
+					<div class="center">
+					<p>Invalid email address. Please try again.</p>
+					</div>
+				</div>
+
+			</div>
+
+		<div class="anchor-box">
+		<hr class="horizontal" >
+		<section id="music">
+		<h3 class="anchor">Music</h3>
+		</section>
+		<hr class="horizontal" >
+		</div>
+
+			<div class="music-hero">
+					<div id="music-overlay">
+						<div class="hero-text">
+
+				<h2>True love Memories</h2>
+				<div class="pagesbar-music">
+					<ul class="pages-music">
+						<li><a href="index.html">Stream</a></li>
+					</ul>
+				</div>
+
+
+				<ul class="social_media_music">
+
+				<li><a href="https://music.apple.com/us/artist/prince-salomon/1506419400">
+				<img src="pictures/icons/itunes.png" alt="iTunes" /></a></li>
+
+				<li><a href="https://open.spotify.com/artist/5PFWdDhAZHDUZVLFPTkhwC?si=hkQJVw5PQwKAGg6H576jmw">
+				<img src="pictures/icons/spotify.png" alt="Spotify" /></a></li>
+
+				<li><a href="https://music.youtube.com/channel/UCjdfQRJ3OoxOTkS3uLITOdw?feature=share">
+				<img src="pictures/icons/play.png" alt="Google Play" /></a></li>
+
+				<li><a href="https://music.amazon.ca/artists/B087PK13MM/prince-salomon?marketplaceId=A2EUQ1WTGCTBG2&musicTerritory=CA&ref=dm_sh_mZjIt0tW0GkwKDBuJBFZiwIhr">
+				<img src="pictures/icons/amazon.png" alt="Amazon" /></a></li>
+
+				</ul>
+
+					</div>
+				</div>
+			</div>
+
+			<div id="audio-players"></div>
+
+
+		<div class="anchor-box">
+			<hr class="horizontal" />
+			<section id="news">
+			<h3 class="anchor">News</h3>
+			</section>
+			<hr class="horizontal" />
+		</div>
+
+			<ul class="grid">
+				<li class="grid_item span g"><a href="blog_video.html" class="grid_link"><div class="tile">New Music Video</div></a></li>
+				<li class="grid_item span h"><a href="blog_tour.html" class="grid_link"><div class="tile">Tour Dates Announced</div></a></li>
+				<li class="grid_item span i"><a href="blog_studio.html" class="grid_link"><div class="tile">In the Studio</div></a></li>
+			</ul>
+
+		<div class="anchor-box">
+			<hr class="horizontal" />
+			<section id="press">
+			<h3 class="anchor">Press</h3>
+			</section>
+			<hr class="horizontal" />
+		</div>
+				<table>
+					<tr>
+						<td>"I was not expecting a good deal. There is no corporal rhythm, nor a sad story."</td>
+					</tr>
+					<tr>
+						<td><b>A&M Press</b></td>
+					</tr>
+					<tr>
+						<td>" In life we have to make a choice about what we like, so I choose music
+              Not only am I passionate about music, it's my life..
+            </br> Our fans are much more than workmates - they are part of our family.
+          </br> With care and enthusiasm, we collaborate with fellow artists,  labels and management to create
+              customized publicity plans </br> designed for maximum impact and reach. We work hard
+               to support each other especially  each unique artistic vision </br> with intelligent and effective
+                campaigns. "</td>
+					</tr>
+					<tr>
+						<td><b>Kstudio Productions</b></td>
+					</tr>
+					<tr>
+						<td>"  It takes time to learn the production and be able to produce a song,
+              but when you are brave, you do it at last.. "</td>
+					</tr>
+
+
+					<tr>
+						<td><b>Prince Salomon - Singer / Songwriter</b></td>
+					</tr>
+				</table>
+
+
+			<div class="anchor-box">
+			<hr class="horizontal" />
+			<section id="videos">
+			<h3 class="anchor">Videos</h3>
+			</section>
+			<hr class="horizontal" />
+			</div>
+
+				<div class="flexbox-video">
+				<div class="video">
+					<h4 class="center">Prince Salomon - Kare</h4>
+					<div class="youtube-player" data-id="cgG2TgQyEJY"></div>
+				</div>
+
+				<div class="video">
+					<h4 class="center">Prince Salomon - Pending</h4>
+					<div class="youtube-player" data-id="JI8LFZ__fAk"></div>
+				</div>
+				</div>
+
+
+			<div class="anchor-box">
+			<hr class="horizontal" />
+			<section id="shows">
+			<h3 class="anchor">Shows</h3>
+			</section>
+			<hr class="horizontal" />
+			</div>
+
+			<div class="flexbox-shows">
+
+				<div class="shows-text">
+						<div class="center"><h4>New York Theatre</h4></div>
+						<div class="center"><p>Albany, NY</p></div>
+						<div class="center"><p>April 15th | 8 - 10 PM</p></div>
+
+				<div class="pagesbar">
+					<ul class="pages">
+						<li><a href="index.html">Buy Tickets</a></li>
+					</ul>
+				</div>
+				</div>
+
+				<div class="shows-text">
+						<div class="center"><h4>California Music Hall</h4></div>
+						<div class="center"><p>Sacramento, CA</p></div>
+						<div class="center"><p>April 18th | 4 - 5 PM</p></div>
+
+				<div class="pagesbar">
+					<ul class="pages">
+						<li><a href="index.html">Buy Tickets</a></li>
+					</ul>
+				</div>
+				</div>
+
+				<div class="shows-text">
+						<div class="center"><h4>St. Louis Stadium</h4></div>
+						<div class="center"><p>St. Louis, MO</p></div>
+						<div class="center"><p>May 3rd | 8 - 12 PM</p></div>
+
+				<div class="pagesbar">
+					<ul class="pages">
+						<li><a href="index.html">Buy Tickets</a></li>
+					</ul>
+				</div>
+				</div>
+
+				<div class="shows-text">
+						<div class="center"><h4>Place bell</h4></div>
+						<div class="center"><p>Montreal, CD</p></div>
+						<div class="center"><p>May 6th | 2 - 3 PM</p></div>
+
+				<div class="pagesbar">
+					<ul class="pages">
+						<li><a href="index.html">Buy Tickets</a></li>
+					</ul>
+				</div>
+				</div>
+
+				<div class="shows-text">
+						<div class="center"><h4>Boston Park</h4></div>
+						<div class="center"><p>Boston, MA</p></div>
+						<div class="center"><p>May 27th | 10 - 2 PM</p></div>
+
+				<div class="pagesbar">
+					<ul class="pages">
+						<li><a href="index.html">Buy Tickets</a></li>
+					</ul>
+				</div>
+				</div>
+
+				<div class="shows-text">
+						<div class="center"><h4>Nashville Center</h4></div>
+						<div class="center"><p>Nasville, TN</p></div>
+						<div class="center"><p>April 19th | 10 - 11:30 AM</p></div>
+
+				<div class="pagesbar">
+					<ul class="pages">
+						<li><a href="index.html">Buy Tickets</a></li>
+					</ul>
+				</div>
+				</div>
+
+			</div>
+
+
+			<div class="anchor-box">
+			<hr class="horizontal" />
+			<section id="photos">
+			<h3 class="anchor">Photos</h3>
+			</section>
+			<hr class="horizontal" />
+			</div>
+
+			<ul class="grid">
+			    <li class="grid_item span a"><a href="pictures/gallery/light-show.jpg" class="grid_link" data-lightbox="pics" data-title="Light show"></a></li>
+				<li class="grid_item span b"><a href="pictures/gallery/synth.jpg" class="grid_link" data-lightbox="pics" data-title="Playing synth"></a></li>
+				<li class="grid_item span c"><a href="pictures/gallery/singing1.jpeg" class="grid_link" data-lightbox="pics" data-title="Singing"></a></li>
+				<li class="grid_item span d"><a href="pictures/gallery/guitar.jpg" class="grid_link" data-lightbox="pics" data-title="Playing guitar"></a></li>
+				<li class="grid_item span e"><a href="pictures/gallery/bass2.jpeg" class="grid_link" data-lightbox="pics" data-title="Playing bass"></a></li>
+				<li class="grid_item span f"><a href="pictures/gallery/concert1.jpeg" class="grid_link" data-lightbox="pics" data-title="Concert in CA"></a></li>
+			</ul>
+
+		<div class="anchor-box">
+			<hr class="horizontal" />
+			<section id="contact">
+			<h3 class="anchor">Contact</h3>
+			</section>
+			<hr class="horizontal" />
+		</div>
+
+		<form id="contacts" name="htmlform" method="post">
+          <div class="form_settings">
+            <input class="name" id="name" type="text" name="name" placeholder="Name" required />
+            <input class="email" id="email" type="email" name="email" placeholder="Email" required />
+			<input class="subject" id="subject" type="text" name="subject" placeholder="Subject" required />
+            <textarea class="message" id="message" rows="4" cols="50" name="message" placeholder="Message" required></textarea>
+			<div>
+            <input class="submit" type="button" name="contact_submitted" value="Send form" onclick="SendForm()"/>
+			</div>
+          </div>
+        </form>
+
+
+	</div>
+	</div>
+
+	<footer>
+		<ul id="social_media">
+			<li><a href="https://www.facebook.com/Prince.salomo/">
+			<img src="pictures/icons/facebook.png" alt="Facebook" /></a></li>
+
+			<li><a href="https://www.instagram.com/princesalomon_official/">
+			<img src="pictures/icons/instagram.png" alt="Instagram" /></a></li>
+
+			<li><a href="https://www.youtube.com/channel/UCDgx5t25cCwCeawgy3Nzrsw">
+			<img src="pictures/icons/youtube.png" alt="YouTube" /></a></li>
+
+			<li><a href="https://twitter.com/Salomonbaraka">
+			<img src="pictures/icons/twitter.png" alt="Twitter" /></a></li>
+
+			<li><a href="https://music.apple.com/us/artist/prince-salomon/1506419400">
+			<img src="pictures/icons/itunes.png" alt="iTunes" /></a></li>
+
+			<li><a href="https://open.spotify.com/artist/5PFWdDhAZHDUZVLFPTkhwC?si=hkQJVw5PQwKAGg6H576jmw">
+			<img src="pictures/icons/spotify.png" alt="Spotify" /></a></li>
+
+			<li><a href="https://music.amazon.ca/artists/B087PK13MM/prince-salomon?marketplaceId=A2EUQ1WTGCTBG2&musicTerritory=CA&ref=dm_sh_mZjIt0tW0GkwKDBuJBFZiwIhr">
+			<img src="pictures/icons/amazon.png" alt="Amazon" /></a></li>
+
+			<li><a href="https://music.youtube.com/channel/UCjdfQRJ3OoxOTkS3uLITOdw?feature=share">
+			<img src="pictures/icons/play.png" alt="Google Play" /></a></li>
+
+			<li><a href="index.html">
+			<img src="pictures/icons/shop.png" alt="Store" /></a></li>
+
+			<li><a href="index.html#mail">
+			<img src="pictures/icons/mail.png" alt="Subscribe" /></a></li>
+
+      <li><a href="Google.ca" target="_blank">
+      <img src="pictures/icons/google1.png" alt="Google" /></a></li>
+
+
+      <li><a href="login-form-master/signOut.htm" target="_blank">
+      <img src="pictures/icons/logout.png" alt="logOut" /></a></li>
+		</ul>
+
+		<ul id="btmtext">
+		  <li><h6><a href="terms.html">Copyright &copy; 2022 Prince Salomon. All Rights Reserved.</a></h6></li>
+		  <li><h6><a href="web.html">Website Credits</a></h6></li>
+		</ul>
+	</footer>
+
+	<script src="js/mailingList.js"></script>
+	<script src="js/contact.js"></script>
+	<script src="js/jquery.serialize-object.js"></script>
+	<script src="js/modal.js"></script>
+	<script src="js/fixedNavMenu.js"></script>
+	<script src="js/scroll.js"></script>
+	<script src="js/musPlayer.js"></script>
+	<script src="js/vid.js"></script>
+	<script src="js/lightbox.js"></script>
+	<link rel="stylesheet" href="css/lightbox.css" type="text/css" title="style">
+</body>
+</html>
